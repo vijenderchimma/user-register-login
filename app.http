@@ -1,0 +1,29 @@
+POSt http://localhost:3000/register
+Content-Type: application/json
+
+{
+    "username": "vijender_chimma",
+    "name": "chimma vijender",
+    "password": "vijjju@424",
+    "gender": "Male",
+    "location": "Hyderabad"
+}
+###
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username": "vijender_chimma",
+    "password": "vijju@213"
+}
+###
+
+PUT http://localhost:3000/change-password
+Content-Type: application/json
+
+{
+    "username": "vijender_chimma",
+    "oldPassword": "vijju@424",
+    "newPassword": "vijju@213"
+}
